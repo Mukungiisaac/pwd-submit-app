@@ -4,17 +4,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import os
 
-st.set_page_config(page_title="Kitui PWD Dashboard", layout="wide")
-
-# Top logo and title row
-col1, col2 = st.columns([1, 6])  # Adjust widths as needed
-
-with col1:
-    st.image("kitui_logo.jpg", width=100)  # Make sure this is committed and in your repo
-
-with col2:
-    st.title("Kitui County PWD Assistive Device Needs Dashboard")
-
 
 # === File Path ===
 CSV_FILE = "C:/Users/IZOOH/Desktop/PWD/PWD_Disability_Set.csv"
