@@ -212,7 +212,7 @@ if device:
 
 
 # === Main Title ===
-st.image("C:/Users/IZOOH/Desktop/PWD/kitui_logo.jpg", width=150)
+
 st.title("Kitui County PWD Assistive Device Needs Dashboard")
 
 # === Filtered Table ===
