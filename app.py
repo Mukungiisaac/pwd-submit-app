@@ -14,7 +14,7 @@ def load_data():
     if os.path.exists(CSV_FILE):
         return pd.read_csv(CSV_FILE)
     else:
-        return pd.DataFrame(columns=["Name", "Phone", "Disability Type", "Assistive Device", "Sub-County", "Ward"])
+        return pd.DataFrame(columns=["Name", "Phone", "Disability Type","Age", "Assistive Device", "Sub-County", "Ward"])
 
 df = load_data()
 df = df.drop(columns=["Unnamed: 6"], errors="ignore")
